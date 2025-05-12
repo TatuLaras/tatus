@@ -49,7 +49,8 @@ hi! link CursorLineNr CursorLine
 hi! link MessageWindow Pmenu
 hi! link PopupNotification Todo
 hi! link TabLine Comment
-hi! link Identifier Function
+hi! link @module.latex Function
+" hi! link Identifier Function
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#cd0000', '#00cd00', '#cdcd00', '#0000ee', '#cd00cd', '#00cdcd', '#e5e5e5', '#7f7f7f', '#ff0000', '#00ff00', '#ffff00', '#5c5cff', '#ff00ff', '#00ffff', '#ffffff']
@@ -108,6 +109,7 @@ hi Constant guifg=#ffa84a guibg=NONE gui=NONE cterm=NONE
 hi String guifg=#d7e55a guibg=NONE gui=NONE cterm=NONE
 hi Error guifg=#ffffff guibg=#ff0000 gui=NONE cterm=NONE
 hi Function guifg=#5ad7e5 guibg=NONE gui=NONE cterm=NONE
+hi Identifier guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
 hi Ignore guifg=#000000 guibg=#000000 gui=NONE cterm=NONE
 hi PreProc guifg=#5ad7e5 guibg=NONE gui=NONE cterm=NONE
 hi Repeat guifg=#ba9af7 guibg=NONE gui=NONE cterm=NONE
