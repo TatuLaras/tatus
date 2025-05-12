@@ -105,7 +105,7 @@ hi VisualNOS guifg=NONE guibg=#000000 gui=bold,underline cterm=underline
 hi WarningMsg guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#000000 guibg=#ffff00 gui=NONE cterm=NONE
 hi Comment guifg=#8a7a8a guibg=NONE gui=NONE cterm=NONE
-hi @markup.raw.markdown_inline guifg=#be9fdd guibg=NONE gui=NONE cterm=NONE
+hi @markup.raw.markdown_inline guifg=#d3a1d3 guibg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ffa84a guibg=NONE gui=NONE cterm=NONE
 hi String guifg=#d7e55a guibg=NONE gui=NONE cterm=NONE
 hi Error guifg=#ffffff guibg=#ff0000 gui=NONE cterm=NONE
