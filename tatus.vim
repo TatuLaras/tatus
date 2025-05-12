@@ -50,7 +50,7 @@ hi! link MessageWindow Pmenu
 hi! link PopupNotification Todo
 hi! link TabLine Comment
 hi! link @module.latex Function
-" hi! link Identifier Function
+" hi! link @markup.raw.markdown_inline Special
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#cd0000', '#00cd00', '#cdcd00', '#0000ee', '#cd00cd', '#00cdcd', '#e5e5e5', '#7f7f7f', '#ff0000', '#00ff00', '#ffff00', '#5c5cff', '#ff00ff', '#00ffff', '#ffffff']
@@ -105,6 +105,7 @@ hi VisualNOS guifg=NONE guibg=#000000 gui=bold,underline cterm=underline
 hi WarningMsg guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#000000 guibg=#ffff00 gui=NONE cterm=NONE
 hi Comment guifg=#8a7a8a guibg=NONE gui=NONE cterm=NONE
+hi @markup.raw.markdown_inline guifg=#be9fdd guibg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ffa84a guibg=NONE gui=NONE cterm=NONE
 hi String guifg=#d7e55a guibg=NONE gui=NONE cterm=NONE
 hi Error guifg=#ffffff guibg=#ff0000 gui=NONE cterm=NONE
