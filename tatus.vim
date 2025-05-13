@@ -50,7 +50,7 @@ hi! link MessageWindow Pmenu
 hi! link PopupNotification Todo
 hi! link TabLine Comment
 hi! link @module.latex Function
-" hi! link @markup.raw.markdown_inline Special
+hi! link @markup.raw.block.markdown @markup.raw.markdown_inline
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#cd0000', '#00cd00', '#cdcd00', '#0000ee', '#cd00cd', '#00cdcd', '#e5e5e5', '#7f7f7f', '#ff0000', '#00ff00', '#ffff00', '#5c5cff', '#ff00ff', '#00ffff', '#ffffff']
