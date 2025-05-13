@@ -72,21 +72,21 @@ hi Folded guifg=#00ffff guibg=#666666 gui=NONE cterm=NONE
 hi Conceal guifg=#666666 guibg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=#000000 guibg=#00ffff gui=NONE cterm=NONE
 hi Directory guifg=#00ffff guibg=#000000 gui=NONE cterm=NONE
-hi EndOfBuffer guifg=#0000ff guibg=#000000 gui=bold cterm=NONE
+hi EndOfBuffer guifg=#0000ff guibg=#000000 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#ffffff guibg=#cd0000 gui=NONE cterm=NONE
 hi FoldColumn guifg=#00ffff guibg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=NONE guibg=#000000 gui=reverse cterm=reverse
 hi LineNr guifg=#ffff00 guibg=NONE gui=NONE cterm=NONE
-hi ModeMsg guifg=NONE guibg=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold
-hi MoreMsg guifg=#2e8b57 guibg=NONE gui=bold cterm=bold
-hi NonText guifg=#584758 guibg=NONE gui=bold cterm=bold
+hi ModeMsg guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
+hi MoreMsg guifg=#2e8b57 guibg=NONE gui=NONE cterm=NONE
+hi NonText guifg=#584758 guibg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#ffffff guibg=#491d45 gui=NONE cterm=NONE
 hi PmenuSbar guifg=NONE guibg=#bebebe gui=NONE cterm=NONE
 hi PmenuSel guifg=#000000 guibg=#00cdcd gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE guibg=#ffffff gui=NONE cterm=NONE
-hi PmenuMatch guifg=#ff00ff guibg=#444444 gui=bold cterm=bold
-hi PmenuMatchSel guifg=#ff00ff guibg=#00cdcd gui=bold cterm=bold
-hi Question guifg=#00ff00 guibg=NONE gui=bold cterm=bold
+hi PmenuMatch guifg=#ff00ff guibg=#444444 gui=NONE cterm=NONE
+hi PmenuMatchSel guifg=#ff00ff guibg=#00cdcd gui=NONE cterm=NONE
+hi Question guifg=#00ff00 guibg=NONE gui=NONE cterm=NONE
 hi Search guifg=#000000 guibg=#ffff00 gui=NONE cterm=NONE
 hi SignColumn guifg=#00ffff guibg=NONE gui=NONE cterm=NONE
 hi SpecialKey guifg=#00ffff guibg=NONE gui=NONE cterm=NONE
@@ -94,14 +94,14 @@ hi SpellBad guifg=#ff0000 guibg=NONE guisp=#ff0000 gui=undercurl cterm=underline
 hi SpellCap guifg=#0000ff guibg=NONE guisp=#0000ff gui=undercurl cterm=underline
 hi SpellLocal guifg=#ffff00 guibg=NONE guisp=#ffff00 gui=undercurl cterm=underline
 hi SpellRare guifg=#ff00ff guibg=NONE guisp=#ff00ff gui=undercurl cterm=underline
-hi StatusLine guifg=#ffffff guibg=#000000 gui=bold cterm=bold
+hi StatusLine guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
 hi TabLineFill guifg=#210d1f guibg=#210d1f gui=reverse cterm=reverse
-hi TabLineSel guifg=#00ffff guibg=#000000 gui=bold cterm=bold
+hi TabLineSel guifg=#00ffff guibg=#000000 gui=NONE cterm=NONE
 hi Terminal guifg=#00ffff guibg=#000000 gui=NONE cterm=NONE
-hi Title guifg=#ff00ff guibg=NONE gui=bold cterm=bold
+hi Title guifg=#ff00ff guibg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#000000 guibg=#00cdcd gui=NONE cterm=NONE
 hi Visual guifg=NONE guibg=#702c6a gui=NONE cterm=NONE
-hi VisualNOS guifg=NONE guibg=#000000 gui=bold,underline cterm=underline
+hi VisualNOS guifg=NONE guibg=#000000 gui=NONE,underline cterm=underline
 hi WarningMsg guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#000000 guibg=#ffff00 gui=NONE cterm=NONE
 hi Comment guifg=#8a7a8a guibg=NONE gui=NONE cterm=NONE
@@ -115,13 +115,13 @@ hi Ignore guifg=#000000 guibg=#000000 gui=NONE cterm=NONE
 hi PreProc guifg=#5ad7e5 guibg=NONE gui=NONE cterm=NONE
 hi Repeat guifg=#ba9af7 guibg=NONE gui=NONE cterm=NONE
 hi Special guifg=#559ad7 guibg=NONE gui=NONE cterm=NONE
-hi Statement guifg=#e55ad7 guibg=NONE gui=bold cterm=bold
+hi Statement guifg=#e55ad7 guibg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#0000ff guibg=#ffff00 gui=NONE cterm=NONE
-hi Type guifg=#25bede guibg=NONE gui=bold cterm=bold
+hi Type guifg=#25bede guibg=NONE gui=NONE cterm=NONE
 hi Underlined guifg=#80a0ff guibg=NONE gui=underline cterm=underline
 hi CursorIM guifg=NONE guibg=fg gui=NONE cterm=NONE
 hi ToolbarLine guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi ToolbarButton guifg=#000000 guibg=#e5e5e5 gui=bold cterm=bold
+hi ToolbarButton guifg=#000000 guibg=#e5e5e5 gui=NONE cterm=NONE
 hi! link LineNrAbove LineNr
 hi! link LineNrBelow LineNr
 hi DiffAdd guifg=#ffffff guibg=#5f875f gui=NONE cterm=NONE
